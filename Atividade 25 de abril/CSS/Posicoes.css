@@ -1,0 +1,50 @@
+.butao {
+    border-radius:50px;
+    background-color:gainsboro;
+    border: 0px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    width:75px;
+    font-size: 12px;
+    color:black;
+    text-align: center;
+    padding: 15px, 20px, 15px, 20px;
+    margin-right: 10px
+}
+.nomealto {
+    border: 0px solid;
+    background-color: mediumslateblue;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    float:left;
+    height: 30px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.nomebaixo {
+    border: 0px solid;
+    background-color: mediumslateblue;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    float:left;
+    height: 30px;
+    margin-top:10px;
+    margin-left:20px;    
+}
+.butaum {
+    background-color:mediumslateblue;
+    border:0px solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    float:right;
+    height:20px;
+    margin-top:15px;
+    margin-right:25px;
+    color:white;
+    font-weight: bold;
+}
+ul {
+    float:right;
+    margin-right: 45px;
+}

@@ -1,0 +1,15 @@
+a:link {
+    color:black;
+}
+a:hover {
+    color:black;
+}
+a:visited {
+    color:black;
+}
+a {
+    text-decoration: none;
+}
+a.branco {
+color:white
+}

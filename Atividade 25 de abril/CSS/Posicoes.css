@@ -11,28 +11,6 @@
     padding: 15px, 20px, 15px, 20px;
     margin-right: 10px
 }
-.nomealto {
-    border: 0px solid;
-    background-color: mediumslateblue;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    float:left;
-    height: 30px;
-    margin-top: 20px;
-    margin-left:20px;
-}
-.nomebaixo {
-    border: 0px solid;
-    background-color: mediumslateblue;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:16px;
-    float:left;
-    height: 30px;
-    margin-top:10px;
-    margin-left:20px;    
-}
 .butaum {
     background-color:mediumslateblue;
     border:0px solid;
@@ -44,7 +22,32 @@
     color:white;
     font-weight: bold;
 }
-ul {
-    float:right;
-    margin-right: 45px;
+.inputlogin {
+    border-radius: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color:azure;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-color:slategray;
+    height: 25px;
+    width: 525px;
+    margin-bottom: 15px;
+    border-top: 0px;
+    border-left: 0px;
+    padding-left: 10px;
+}
+.box {
+    border: 1px solid gray;
+    border-radius: 15px;
+    width: 600px;
+    margin-left: 430px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    height: 300px;
+    margin-bottom: 50px;
+}
+.espaco {
+    height:174px;
 }

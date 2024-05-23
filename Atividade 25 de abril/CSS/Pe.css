@@ -3,3 +3,14 @@ footer {
     height: 50px;
     width:100%;
 }
+.nomebaixo {
+    border: 0px solid;
+    background-color: mediumslateblue;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    float:left;
+    height: 30px;
+    margin-top:10px;
+    margin-left:20px;    
+}

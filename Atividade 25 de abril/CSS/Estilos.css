@@ -86,7 +86,9 @@ textarea {
     border-radius: 4px;
     height: 50%;
     width: 40%;
-    padding-left:65px;
+    padding-left:35px;
+    padding-right:30px;
+    padding-bottom: 10px;
 }
 .IMC {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -116,4 +118,7 @@ textarea {
     height: 25px;
     width: 200px;
     margin-top: 15px;
+}
+#bemvindo {
+    text-align:center;
 }

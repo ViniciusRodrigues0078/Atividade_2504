@@ -1,16 +1,82 @@
 img {
-    height: 30%;
-    width: 40%;
+    height: 200px;
+    width: 200px;
     border-radius: 7px;
+    margin-bottom: 5px;
 }
 .grid {
-    height: 45%;
-    width: 45%;
-    border: 1px dotted red;
+    width: 210px;
+    height: 210px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
 #flex {
-display:grid;
-gap: 10px;
-justify-content: start;
-column-width: 150px;
+display:inline-grid;
+column-gap: 20px;
+row-gap: 240px;
+grid-auto-columns:minmax(220px, 220px);
+grid-auto-rows:minmax(220px, 220px);
+grid-auto-flow: row;
+}
+#esporte1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#esporte2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#esporte3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#esporte4 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#esporte5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#esporte6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#esporte7 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#esporte8 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+#calculo {
+    background-color:lavender;
+    border: 1px solid grey;
+    border-radius: 4px;
+    height: 270px;
+    width: 220px;
+    padding-left:35px;
+    padding-right:30px;
+    padding-bottom: 10px;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }

@@ -7,11 +7,11 @@ img {
 .grid {
     width: 210px;
     height: 210px;
-    padding-left: 5px;
+    padding-left: 150px;
     padding-top: 5px;
 }
 #flex {
-display:inline-grid;
+display:grid;
 column-gap: 20px;
 row-gap: 240px;
 grid-auto-columns:minmax(220px, 220px);
@@ -79,4 +79,5 @@ grid-auto-flow: row;
     grid-column-end: 7;
     grid-row-start: 1;
     grid-row-end: 2;
+    margin-left: 150px;
 }

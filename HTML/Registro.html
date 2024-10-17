@@ -26,18 +26,34 @@
     <br>
 <div class="box">
 <p class="titulo">Cadastre-se para acompanhar as notícias!</p>
-<input type="text" placeholder="Nome e sobrenome" class="inputlogin">
+<input type="text" placeholder="Nome e sobrenome" class="inputlogin" id="nome_registro">
 <br>
-<input type="text" placeholder="Email" class="inputlogin">
+<input type="text" placeholder="Email" class="inputlogin" id="email_registro">
 <br>
-<input type="text" placeholder="Telefone" class="inputlogin">
+<input type="text" placeholder="Telefone" class="inputlogin" id="telefone_registro">
 <br>
-<button class="envio" type="submit">Concluir</button>
+<button class="envio" type="submit" onclick="validar_registro()">Concluir</button>
 </div>
 <div class="espaco"></div>
 <footer>
     <button class="nomebaixo"><a class="branco" href="../HTML/Index.html">InfoSports</a></button>
     <button class="butaum"><a class="branco" href="../HTML/Index.html">VOLTAR PARA O TOPO</a></button>
 </footer>
+<script>
+    function validar_registro() {
+        let nome = document.getElementById('nome_registro');
+        if (nome.value="") {
+        alert("Nome não informado");
+    } 
+        let email = document.getElementById('email_registro');
+        if (email.value="") {
+        alert("Email não informado");
+    } 
+        let telefone = document.getElementById('telefone_registro');
+        if (telefone.value="") {
+        alert("Telefone não informado");
+    }
+    }
+</script>
 </body>
 </html>

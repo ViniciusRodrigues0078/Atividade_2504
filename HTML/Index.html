@@ -103,15 +103,23 @@ O voleibol ou vôlei é um esporte coletivo praticado em uma quadra dividida por
 <div id="calculo">
 <p class="IMC">ÍNDICE DE MASSA CORPORAL (IMC)</p>
 <P class="IMC">Peso (KG)</P>
-<input type="text" placeholder="Digite o peso..." class="inputimc">
+<input type="text" placeholder="Digite o peso..." class="inputimc" id="Peso">
 <p class="IMC">Altura (M)</p>
-<input type="text" placeholder="Digite a altura..." class="inputimc">
-<button id="calcular">Calcular</button>
+<input type="text" placeholder="Digite a altura..." class="inputimc" id="Altura">
+<button onclick= "calcularIMC()" id="calcular">Calcular</button>
 </div>
 </div>
 <footer>
     <button class="nomebaixo"><a class="branco" href="../HTML/Index.html">InfoSports</a></button>
     <button class="butaum"><a class="branco" href="../HTML/Index.html">VOLTAR PARA O TOPO</a></button>
 </footer>
+<script>
+    function calcularIMC() {
+        let peso = document.getElementById('Peso').value;
+        let altura = document.getElementById('Altura').value;
+        let calculo = peso / (altura * altura);
+        window.alert("Seu IMC é de " + calculo + "kg/m².");
+    }
+</script>
 </body>
 </html>

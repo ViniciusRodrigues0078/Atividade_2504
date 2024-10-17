@@ -26,19 +26,44 @@
     <br>
     <div class="box">
     <p class="titulo">Contate-nos</p>
-        <input type=text class="esquerdo" placeholder="Nome" maxlength="20">
-    <input type=text class="direito" placeholder="Sobrenome" maxlength="20">
+        <input type=text class="esquerdo" placeholder="Nome" maxlength="20" id="nome_contato">
+    <input type=text class="direito" placeholder="Sobrenome" maxlength="20" id="sobrenome_contato">
     <br>
-    <input type=text class="esquerdo" placeholder="Email" maxlength="20">
-    <input type=text class="direito" placeholder="Telefone" maxlength="20">
+    <input type=text class="esquerdo" placeholder="Email" maxlength="20" id="email_contato">
+    <input type=text class="direito" placeholder="Telefone" maxlength="20" id="telefone_contato">
     <br>
-    <textarea id="grande" placeholder="Digite aqui a sua mensagem (máximo de 200 caracteres)" maxlength="200"></textarea>
+    <textarea id="grande" placeholder="Digite aqui a sua mensagem (máximo de 200 caracteres)" maxlength="200" id="mensagem"></textarea>
     <br>
-    <button class="envio" type="submit">Enviar</button>
+    <button onclick="validar_contato()" class="envio" type="submit">Enviar</button>
     </div>
     <div class="espaco"></div>
     <footer>
         <button class="nomebaixo"><a class="branco" href="../HTML/Index.html">InfoSports</a></button>
         <button class="butaum"><a class="branco" href="../HTML/Index.html">VOLTAR PARA O TOPO</a></button>
     </footer>
+    <script>
+        function validar_contato() {
+        let nome = document.getElementById('nome_contato');
+        if (nome.value="") {
+        alert("Nome não informado");
+        }
+        let sobrenome = document.getElementById('sobrenome_contato');
+        if (sobrenome.value="") {
+        alert("Sobrenome não informado");
+    } 
+        let email = document.getElementById('email_contato');
+        if (email.value="") {
+        alert("Email não informado");
+    } 
+        let telefone = document.getElementById('telefone_contato');
+        if (telefone.value="") {
+        alert("Telefone não informado");
+    }
+        let mensagem = document.getElementById('mensagem');
+        if (mensagem.value="") {
+        alert("Mensagem não informada");
+        }
+        }
+    </script>
+</body>
 </html>
